@@ -1,4 +1,3 @@
-import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
 import { CharactersCollection } from './CharactersCollection';
 import { LinkedList } from './LinkedList';
@@ -11,17 +10,13 @@ linkedList.add(500);
 linkedList.add(0);
 linkedList.add(21);
 
-linkedList.print();
 console.log(numbers.data);
 console.log(characters.data);
+linkedList.print();
 
-const sorter1 = new Sorter(numbers);
-const sorter2 = new Sorter(characters);
-const sorter3 = new Sorter(linkedList);
-
-sorter1.sort();
-sorter2.sort();
-sorter3.sort();
+linkedList.sort();
+numbers.sort();
+characters.sort();
 
 linkedList.print();
 console.log(numbers.data);
