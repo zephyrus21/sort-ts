@@ -1,8 +1,8 @@
-## sort algorithm in using ts
+## Sort algorithm
 
 ---
 
-## install dependencies
+## Setup
 
 ```
 npm install
@@ -23,5 +23,5 @@ npm run start:run
 or, to run nodemon and tsc simultaneously
 
 ```
-npm run start
+npm start
 ```
